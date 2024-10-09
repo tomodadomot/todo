@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ToDo アプリケーション
 
-## Getting Started
+シンプルな ToDo アプリ！ 人生は忙しいけど、せめてタスク管理くらいはこのアプリで楽にしよう！
 
-First, run the development server:
+## 機能
+- タスクの追加: 未来の自分のために、今やるべきことを記録しよう。
+- タスクの完了/未完了の切り替え: タスクを片付けたときの満足感を味わおう。
+- タスクの削除: もうやる必要がない？迷わず削除！
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 使用方法
+1. 「Title」と「Content」を入力して、「追加」ボタンを押してタスクを追加しよう。やりたいことを思い出した瞬間に追加！
+2. タスクの「完了」または「未完了」ボタンを押すことでタスクのステータスを切り替えられる。達成感を存分に味わおう。
+3. 「削除」ボタンを押すとタスクが削除できる。もう用済みのタスクはさよならしよう。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 今後の改良点
+- タスクの締め切り設定や優先度の追加（タスクのやる気度をさらに高めるために）
+- タスクのフィルタリング機能（完了タスク、未完了タスクの表示切り替え。どれだけ片付けたかを一目で確認！）
+- 永続的なデータ保存のためのバックエンド連携（デバイスを変えてもタスクはそのまま）
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+フィードバックや貢献は大歓迎。気軽にプルリクエストを送ってね！みんなでより良いタスク管理を目指そう！
